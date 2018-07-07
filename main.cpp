@@ -25,7 +25,7 @@ int main()
     bool end = false;
 
     Renderer rd(w.get_window());
-    Texture tex(rd.get_renderer(), "C:\\Users\\arco\\Desktop\\code\\ChromeOfflineGame2\\resources\\sp3.bmp", true, 255, 255, 255);
+    Texture tex(rd.get_renderer(), "sp3.bmp", true, 255, 255, 255);
 
     int current_frame = 0;
 
